@@ -1,0 +1,147 @@
+/* General body styles */
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/* Navbar styling */
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 {
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+/* Toggle button styles */
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+/* Menu list styles */
+#nav-list {
+  background-color: #f6b319;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#nav-list a {
+  color: #557c3e; 
+  text-align: center;
+  font-size: 1.2em;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+#nav-list hr {
+  display: none;
+}
+
+/* Heading style */
+#top-heading {
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: black; 
+}
+
+/* Styles for the boxes */
+
+/* Chicken box styles */
+#chicken-box {
+  background-color: #999999;
+  border: 2px solid black;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  color: black;
+  height: 1000px; /* Making it tall like assignment asked */
+  overflow: hidden;
+}
+
+/* Beef box styles */
+#beef-box {
+  background-color: #999999;
+  border: 2px solid black;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  color: black;
+  height: 1000px;
+  overflow: hidden;
+}
+
+/* Sushi box styles */
+#sushi-box {
+  background-color: #999999;
+  border: 2px solid black;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  color: black;
+  height: 1000px;
+  overflow: hidden;
+}
+
+/* Box titles */
+#chicken-heading {
+    margin-top: 0;
+    font-weight: bold;
+}
+#beef-heading {
+    margin-top: 0;
+    font-weight: bold;
+}
+#sushi-heading {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+
+/* Media queries for different screens */
+
+/* Mobile view adjustments */
+@media (max-width: 767px) {
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  
+  .navbar-brand h1 {
+    padding-top: 10px;
+    font-size: 5vw; 
+  }
+  
+  .navbar-header button.navbar-toggle {
+     /* fixing the button position */
+    margin-top: 15px; 
+    margin-right: 20px;
+  }
+}
